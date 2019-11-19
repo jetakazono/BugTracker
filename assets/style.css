@@ -1,0 +1,28 @@
+html,body{
+    min-height: 100%;
+}
+body{
+    background: #eee;
+}
+h1{
+    font-size: 25px;
+}
+img{
+    width: 100%;
+}
+.navbar-brand{
+    margin: 0 auto;
+    display: block;
+}
+.navbar-brand img{
+    max-height: 80px;
+    display: block;
+}
+.btn-primary{
+    background-color: #8c0082;
+    border-color: #8c0082;
+}
+.form-control:focus{
+    border-color: #8c0082;
+    box-shadow: 0 0 0 0.2rem rgba(140, 0, 130, 0.25);
+}
